@@ -1,0 +1,30 @@
+<div class="container"><hr />
+<div class="span-18">
+<div class="span-18 last">
+<h1>Multi-label Active REView classificAtion (MAREVA)</h1>
+<h3>This is a mock page of the authors website to comply with the double-blind review of COMPSAC. The webpage containing the actual working version of this page will be available upon the publication of the paper.</h3>
+<p>This is a demonstration of <strong>MAREVA</strong> on automatically classifying user reviews into four classes i.e., <strong>Bug reports</strong>, <strong>Feature requests</strong>, <strong>User experiences</strong> and <strong>Rating</strong>. MAREVA's classification relies on a built logistic regression model using Multi-label Active Learning With Auxiliary Learner.&nbsp;</p>
+<p>As you input your recieved user review in the textbox below and press analyze. MAREVA uses <code>NLTK</code> for <strong>the review preprocessing </strong>and <code>LIBACT</code> to run the algorithms we mentioned above for the <strong>review classification</strong>. The output of the classification&nbsp; shows the potential classes that your reviews belongs to.</p>
+<h4>Example</h4>
+<p>If the following message is used as input: <em>Crashes please fix it for KitKat, it crashes when I open </em>music<em> player and it doesn&rsquo;t scrobble</em>. The output of the classification would identify this message as a <strong>Bug Report</strong>.</p>
+<p>&nbsp;</p>
+</div>
+<div class="span-9"><form action="https://text-processing.com/demo/sentiment/" method="POST"><fieldset><legend>Analyze User Review<br /></legend>
+<ul class="form">
+<li><label for="id_language">Language</label>
+<div><select id="id_language" name="language">
+<option selected="selected" value="english">english</option>
+</select></div>
+</li>
+<li><label for="id_text">Enter text</label>
+<div><textarea id="id_text" style="width: 691px; height: 194px;" cols="38" name="text" rows="12">It is awesome download it dont look back This app is great Plates are nice map quality great no complaints I am a student pilot and I most utilize the track feature I use it to review flight path in Google Earth Coupled with video and recorded audio just a great tool to help me learn and get better</textarea></div>
+<p class="notice">For now, we support only up to 1000 characters per message</p>
+</li>
+</ul>
+<input type="submit" value="Analyze" /></fieldset></form></div>
+<div class="span-9 last">&nbsp;</div>
+<div class="span-24 last">&nbsp;</div>
+<hr />
+<div class="span-18 last">Temporarly published in GitHub.</div>
+</div>
+</div>
